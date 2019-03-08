@@ -1,0 +1,19 @@
+<html>
+<head>
+  <title> el peso ideal  </title>
+</head>
+<body>
+  <h1> Tu peso en otro planeta </h1>
+  <p> Tu peso vária segun el planeta en que te encuentres </p>
+<script>
+var usuario= prompt("cual es tu peso?");
+var peso= parseInt(usuario);
+var p_tierra=9.8;
+var p_marte=3.7;
+var peso_total;
+peso_total=peso*p_marte/p_tierra;
+peso_total=parseInt(peso_total);
+document.write(peso_total);
+</script>
+</body>
+</html>
